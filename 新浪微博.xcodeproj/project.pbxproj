@@ -14,6 +14,21 @@
 		E530214D1F3ABB39000651AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E530214B1F3ABB39000651AF /* LaunchScreen.storyboard */; };
 		E53021581F3ABB39000651AF /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021571F3ABB39000651AF /* ____Tests.swift */; };
 		E53021631F3ABB39000651AF /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021621F3ABB39000651AF /* ____UITests.swift */; };
+		E53021881F3ABB68000651AF /* Bundle+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */; };
+		E53021891F3ABB68000651AF /* CGRect+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */; };
+		E530218A1F3ABB68000651AF /* UIColor+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */; };
+		E530218B1F3ABB68000651AF /* YSHYTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021771F3ABB68000651AF /* YSHYTools.swift */; };
+		E530218C1F3ABB68000651AF /* YSHYWBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217A1F3ABB68000651AF /* YSHYWBDemoViewController.swift */; };
+		E530218D1F3ABB68000651AF /* YSHYWBDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217C1F3ABB68000651AF /* YSHYWBDiscoverController.swift */; };
+		E530218E1F3ABB68000651AF /* YSHYWBHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217E1F3ABB68000651AF /* YSHYWBHomeController.swift */; };
+		E530218F1F3ABB68000651AF /* YSHYWBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */; };
+		E53021901F3ABB68000651AF /* YSHYWBMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021811F3ABB68000651AF /* YSHYWBMMainViewController.swift */; };
+		E53021911F3ABB68000651AF /* YSHYWBNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021821F3ABB68000651AF /* YSHYWBNavController.swift */; };
+		E53021921F3ABB68000651AF /* YSHYWBMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021841F3ABB68000651AF /* YSHYWBMessageController.swift */; };
+		E53021931F3ABB68000651AF /* YSHYWBProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021861F3ABB68000651AF /* YSHYWBProfileController.swift */; };
+		E53021951F3ABFD5000651AF /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */; };
+		E53021971F3ADBC6000651AF /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021961F3ADBC6000651AF /* UIButton+Extension.swift */; };
+		E53021A01F3B0875000651AF /* YSHYWBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		E530215E1F3ABB39000651AF /* 新浪微博UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53021621F3ABB39000651AF /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		E53021641F3ABB39000651AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extenstion.swift"; sourceTree = "<group>"; };
+		E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extenstion.swift"; sourceTree = "<group>"; };
+		E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extenstion.swift"; sourceTree = "<group>"; };
+		E53021771F3ABB68000651AF /* YSHYTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYTools.swift; sourceTree = "<group>"; };
+		E530217A1F3ABB68000651AF /* YSHYWBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBDemoViewController.swift; sourceTree = "<group>"; };
+		E530217C1F3ABB68000651AF /* YSHYWBDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBDiscoverController.swift; sourceTree = "<group>"; };
+		E530217E1F3ABB68000651AF /* YSHYWBHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBHomeController.swift; sourceTree = "<group>"; };
+		E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBBaseViewController.swift; sourceTree = "<group>"; };
+		E53021811F3ABB68000651AF /* YSHYWBMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBMMainViewController.swift; sourceTree = "<group>"; };
+		E53021821F3ABB68000651AF /* YSHYWBNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBNavController.swift; sourceTree = "<group>"; };
+		E53021841F3ABB68000651AF /* YSHYWBMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBMessageController.swift; sourceTree = "<group>"; };
+		E53021861F3ABB68000651AF /* YSHYWBProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBProfileController.swift; sourceTree = "<group>"; };
+		E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		E53021961F3ADBC6000651AF /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBVisitorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +127,7 @@
 		E53021411F3ABB39000651AF /* 新浪微博 */ = {
 			isa = PBXGroup;
 			children = (
+				E53021701F3ABB68000651AF /* Classes */,
 				E53021421F3ABB39000651AF /* AppDelegate.swift */,
 				E53021441F3ABB39000651AF /* ViewController.swift */,
 				E53021461F3ABB39000651AF /* Main.storyboard */,
@@ -123,6 +154,132 @@
 				E53021641F3ABB39000651AF /* Info.plist */,
 			);
 			path = "新浪微博UITests";
+			sourceTree = "<group>";
+		};
+		E53021701F3ABB68000651AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E53021711F3ABB68000651AF /* Demo */,
+				E53021721F3ABB68000651AF /* Model */,
+				E53021731F3ABB68000651AF /* Tools */,
+				E53021781F3ABB68000651AF /* View */,
+				E53021871F3ABB68000651AF /* ViewModle */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E53021711F3ABB68000651AF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E53021721F3ABB68000651AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E53021731F3ABB68000651AF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */,
+				E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */,
+				E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */,
+				E53021771F3ABB68000651AF /* YSHYTools.swift */,
+				E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */,
+				E53021961F3ADBC6000651AF /* UIButton+Extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E53021781F3ABB68000651AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E530217F1F3ABB68000651AF /* Main */,
+				E53021791F3ABB68000651AF /* Demo */,
+				E530217D1F3ABB68000651AF /* Home */,
+				E530217B1F3ABB68000651AF /* Discover */,
+				E53021831F3ABB68000651AF /* Message */,
+				E53021851F3ABB68000651AF /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E53021791F3ABB68000651AF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E530217A1F3ABB68000651AF /* YSHYWBDemoViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E530217B1F3ABB68000651AF /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				E530217C1F3ABB68000651AF /* YSHYWBDiscoverController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		E530217D1F3ABB68000651AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E530217E1F3ABB68000651AF /* YSHYWBHomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E530217F1F3ABB68000651AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E530219E1F3B0875000651AF /* VisitorView */,
+				E53021991F3AF240000651AF /* MainController */,
+				E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E53021831F3ABB68000651AF /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E53021841F3ABB68000651AF /* YSHYWBMessageController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E53021851F3ABB68000651AF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E53021861F3ABB68000651AF /* YSHYWBProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E53021871F3ABB68000651AF /* ViewModle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModle;
+			sourceTree = "<group>";
+		};
+		E53021991F3AF240000651AF /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				E53021811F3ABB68000651AF /* YSHYWBMMainViewController.swift */,
+				E53021821F3ABB68000651AF /* YSHYWBNavController.swift */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		E530219E1F3B0875000651AF /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */,
+			);
+			path = VisitorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +421,21 @@
 			files = (
 				E53021451F3ABB39000651AF /* ViewController.swift in Sources */,
 				E53021431F3ABB39000651AF /* AppDelegate.swift in Sources */,
+				E530218D1F3ABB68000651AF /* YSHYWBDiscoverController.swift in Sources */,
+				E53021931F3ABB68000651AF /* YSHYWBProfileController.swift in Sources */,
+				E530218A1F3ABB68000651AF /* UIColor+Extenstion.swift in Sources */,
+				E53021971F3ADBC6000651AF /* UIButton+Extension.swift in Sources */,
+				E53021921F3ABB68000651AF /* YSHYWBMessageController.swift in Sources */,
+				E53021A01F3B0875000651AF /* YSHYWBVisitorView.swift in Sources */,
+				E530218E1F3ABB68000651AF /* YSHYWBHomeController.swift in Sources */,
+				E53021891F3ABB68000651AF /* CGRect+Extenstion.swift in Sources */,
+				E53021901F3ABB68000651AF /* YSHYWBMMainViewController.swift in Sources */,
+				E53021911F3ABB68000651AF /* YSHYWBNavController.swift in Sources */,
+				E530218C1F3ABB68000651AF /* YSHYWBDemoViewController.swift in Sources */,
+				E530218B1F3ABB68000651AF /* YSHYTools.swift in Sources */,
+				E53021881F3ABB68000651AF /* Bundle+Extenstion.swift in Sources */,
+				E53021951F3ABFD5000651AF /* UIBarButtonItem+Extension.swift in Sources */,
+				E530218F1F3ABB68000651AF /* YSHYWBBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +591,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CV6BXNLMXG;
 				INFOPLIST_FILE = "新浪微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YSHY.weibo.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +605,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CV6BXNLMXG;
 				INFOPLIST_FILE = "新浪微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YSHY.weibo.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
