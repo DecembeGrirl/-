@@ -9,12 +9,12 @@
 import UIKit
 extension UIButton {
     
-    func YHSY_init(title:String, fontSize: CGFloat = 16 ,normalColor:UIColor,highlightedColor:UIColor){
+    convenience init(title:String, fontSize: CGFloat = 16 ,normalColor:UIColor,highlightedColor:UIColor){
+        self.init()
         setTitle(title, for: .normal);
         titleLabel?.font = UIFont.systemFont(ofSize: fontSize)
         setTitleColor(normalColor, for: .normal)
         setTitleColor(highlightedColor, for: .highlighted)
-//        return self;
     }
 
 

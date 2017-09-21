@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Alamofire/Alamofire.git'
+source 'https://github.com/onevcat/Kingfisher.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '新浪微博' do
+    pod 'SnapKit', '~> 3.2.0'
+    pod 'Alamofire', '~> 4.4.0'
+    pod 'Kingfisher', '~> 3.9.1'    
+end
+

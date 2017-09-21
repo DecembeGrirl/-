@@ -13,8 +13,8 @@ extension UIBarButtonItem {
     // 重载init方法
     convenience init(title:String,fontSize:CGFloat = 16,target:AnyObject?, action: Selector,isBack:Bool = false) {
         
-        let btn :UIButton = UIButton.init(type: .custom)
-        btn.YHSY_init(title:title,fontSize:fontSize,normalColor:.darkGray,highlightedColor:.orange)
+        let btn :UIButton = UIButton.init(title:title,fontSize:fontSize,normalColor:.darkGray,highlightedColor:.orange)
+//btn.YHSY_init(title:title,fontSize:fontSize,normalColor:.darkGray,highlightedColor:.orange)
         btn.addTarget(target,action:action,for:.touchUpInside)
         if(isBack){
             let imgName = "nav_back_icon"

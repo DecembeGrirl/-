@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEBA42B2B8D1233397125404 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD87558B7213CBBDB6CE268 /* Pods_____.framework */; };
 		E53021431F3ABB39000651AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021421F3ABB39000651AF /* AppDelegate.swift */; };
 		E53021451F3ABB39000651AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021441F3ABB39000651AF /* ViewController.swift */; };
 		E53021481F3ABB39000651AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53021461F3ABB39000651AF /* Main.storyboard */; };
@@ -29,6 +30,35 @@
 		E53021951F3ABFD5000651AF /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */; };
 		E53021971F3ADBC6000651AF /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021961F3ADBC6000651AF /* UIButton+Extension.swift */; };
 		E53021A01F3B0875000651AF /* YSHYWBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */; };
+		E53021A21F3B0B29000651AF /* UILabel+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021A11F3B0B29000651AF /* UILabel+Extenstion.swift */; };
+		E532E3B11F600656002434A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021441F3ABB39000651AF /* ViewController.swift */; };
+		E532E3B21F600656002434A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021421F3ABB39000651AF /* AppDelegate.swift */; };
+		E532E3B31F600656002434A7 /* YSHYWBDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217C1F3ABB68000651AF /* YSHYWBDiscoverController.swift */; };
+		E532E3B41F600656002434A7 /* YSHYWBProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021861F3ABB68000651AF /* YSHYWBProfileController.swift */; };
+		E532E3B51F600656002434A7 /* UIColor+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */; };
+		E532E3B61F600656002434A7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021961F3ADBC6000651AF /* UIButton+Extension.swift */; };
+		E532E3B71F600656002434A7 /* WBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC0C071F5D1A220099F70F /* WBNetworkManager.swift */; };
+		E532E3B81F600656002434A7 /* YSHYWBMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021841F3ABB68000651AF /* YSHYWBMessageController.swift */; };
+		E532E3B91F600656002434A7 /* YSHYWBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */; };
+		E532E3BA1F600656002434A7 /* YSHYWBHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217E1F3ABB68000651AF /* YSHYWBHomeController.swift */; };
+		E532E3BB1F600656002434A7 /* CGRect+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */; };
+		E532E3BC1F600656002434A7 /* YSHYWBMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021811F3ABB68000651AF /* YSHYWBMMainViewController.swift */; };
+		E532E3BD1F600656002434A7 /* YSHYWBNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021821F3ABB68000651AF /* YSHYWBNavController.swift */; };
+		E532E3BE1F600656002434A7 /* YSHYWBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530217A1F3ABB68000651AF /* YSHYWBDemoViewController.swift */; };
+		E532E3BF1F600656002434A7 /* UILabel+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021A11F3B0B29000651AF /* UILabel+Extenstion.swift */; };
+		E532E3C01F600656002434A7 /* WBNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC0C091F5D1AD70099F70F /* WBNetworkManager+Extension.swift */; };
+		E532E3C11F600656002434A7 /* YSHYTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021771F3ABB68000651AF /* YSHYTools.swift */; };
+		E532E3C21F600656002434A7 /* Bundle+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */; };
+		E532E3C31F600656002434A7 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */; };
+		E532E3C41F600656002434A7 /* YSHYWBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */; };
+		E532E3C61F600656002434A7 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD87558B7213CBBDB6CE268 /* Pods_____.framework */; };
+		E532E3C81F600656002434A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E530214B1F3ABB39000651AF /* LaunchScreen.storyboard */; };
+		E532E3C91F600656002434A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53021491F3ABB39000651AF /* Assets.xcassets */; };
+		E532E3CA1F600656002434A7 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = E54EEDB71F459D99002A8289 /* main.json */; };
+		E532E3CB1F600656002434A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53021461F3ABB39000651AF /* Main.storyboard */; };
+		E54EEDB81F459D99002A8289 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = E54EEDB71F459D99002A8289 /* main.json */; };
+		E5EC0C081F5D1A220099F70F /* WBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC0C071F5D1A220099F70F /* WBNetworkManager.swift */; };
+		E5EC0C0A1F5D1AD70099F70F /* WBNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC0C091F5D1AD70099F70F /* WBNetworkManager+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +79,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2595AC0BA1BD49B4083C63C6 /* Pods-新浪微博.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD87558B7213CBBDB6CE268 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E29FA0E9D7E2DD46CC28C5 /* Pods-新浪微博.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博.release.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博.release.xcconfig"; sourceTree = "<group>"; };
 		E530213F1F3ABB39000651AF /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53021421F3ABB39000651AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53021441F3ABB39000651AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +110,13 @@
 		E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		E53021961F3ADBC6000651AF /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		E530219F1F3B0875000651AF /* YSHYWBVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYWBVisitorView.swift; sourceTree = "<group>"; };
+		E53021A11F3B0B29000651AF /* UILabel+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extenstion.swift"; sourceTree = "<group>"; };
+		E532E3AD1F5FFEFE002434A7 /* 新浪微博 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "新浪微博 copy-Info.plist"; path = "/Users/zhanglle/Desktop/2048/新浪微博/新浪微博 copy-Info.plist"; sourceTree = "<absolute>"; };
+		E532E3D11F600656002434A7 /* 新浪微博Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E532E3D21F600656002434A7 /* 新浪微博 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "新浪微博 copy2-Info.plist"; path = "/Users/zhanglle/Desktop/2048/新浪微博/新浪微博 copy2-Info.plist"; sourceTree = "<absolute>"; };
+		E54EEDB71F459D99002A8289 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		E5EC0C071F5D1A220099F70F /* WBNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNetworkManager.swift; sourceTree = "<group>"; };
+		E5EC0C091F5D1AD70099F70F /* WBNetworkManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WBNetworkManager+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBA42B2B8D1233397125404 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +142,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E532E3C51F600656002434A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E532E3C61F600656002434A7 /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D805B87F1E49232625C9336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD87558B7213CBBDB6CE268 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74C154A657958C07CA4BC87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2595AC0BA1BD49B4083C63C6 /* Pods-新浪微博.debug.xcconfig */,
+				A8E29FA0E9D7E2DD46CC28C5 /* Pods-新浪微博.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E50043B71F3DA16D00DA1AAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */,
+				E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */,
+				E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */,
+				E53021771F3ABB68000651AF /* YSHYTools.swift */,
+				E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */,
+				E53021961F3ADBC6000651AF /* UIButton+Extension.swift */,
+				E53021A11F3B0B29000651AF /* UILabel+Extenstion.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		E53021361F3ABB39000651AF = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +191,10 @@
 				E53021561F3ABB39000651AF /* 新浪微博Tests */,
 				E53021611F3ABB39000651AF /* 新浪微博UITests */,
 				E53021401F3ABB39000651AF /* Products */,
+				C74C154A657958C07CA4BC87 /* Pods */,
+				6D805B87F1E49232625C9336 /* Frameworks */,
+				E532E3AD1F5FFEFE002434A7 /* 新浪微博 copy-Info.plist */,
+				E532E3D21F600656002434A7 /* 新浪微博 copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +204,7 @@
 				E530213F1F3ABB39000651AF /* 新浪微博.app */,
 				E53021531F3ABB39000651AF /* 新浪微博Tests.xctest */,
 				E530215E1F3ABB39000651AF /* 新浪微博UITests.xctest */,
+				E532E3D11F600656002434A7 /* 新浪微博Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,12 +270,9 @@
 		E53021731F3ABB68000651AF /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				E53021741F3ABB68000651AF /* Bundle+Extenstion.swift */,
-				E53021751F3ABB68000651AF /* CGRect+Extenstion.swift */,
-				E53021761F3ABB68000651AF /* UIColor+Extenstion.swift */,
-				E53021771F3ABB68000651AF /* YSHYTools.swift */,
-				E53021941F3ABFD5000651AF /* UIBarButtonItem+Extension.swift */,
-				E53021961F3ADBC6000651AF /* UIButton+Extension.swift */,
+				E5EC0C061F5D19880099F70F /* networking */,
+				E5A5A9521F3DA80400F5B6D8 /* Config */,
+				E50043B71F3DA16D00DA1AAA /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -199,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				E530217F1F3ABB68000651AF /* Main */,
+				E54EEDB61F459D85002A8289 /* Test */,
 				E53021791F3ABB68000651AF /* Demo */,
 				E530217D1F3ABB68000651AF /* Home */,
 				E530217B1F3ABB68000651AF /* Discover */,
@@ -235,9 +318,8 @@
 		E530217F1F3ABB68000651AF /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E530219E1F3B0875000651AF /* VisitorView */,
 				E53021991F3AF240000651AF /* MainController */,
-				E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */,
+				E530219E1F3B0875000651AF /* VisitorView */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -268,6 +350,7 @@
 		E53021991F3AF240000651AF /* MainController */ = {
 			isa = PBXGroup;
 			children = (
+				E53021801F3ABB68000651AF /* YSHYWBBaseViewController.swift */,
 				E53021811F3ABB68000651AF /* YSHYWBMMainViewController.swift */,
 				E53021821F3ABB68000651AF /* YSHYWBNavController.swift */,
 			);
@@ -282,6 +365,30 @@
 			path = VisitorView;
 			sourceTree = "<group>";
 		};
+		E54EEDB61F459D85002A8289 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E54EEDB71F459D99002A8289 /* main.json */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		E5A5A9521F3DA80400F5B6D8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E5EC0C061F5D19880099F70F /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC0C071F5D1A220099F70F /* WBNetworkManager.swift */,
+				E5EC0C091F5D1AD70099F70F /* WBNetworkManager+Extension.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,9 +396,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53021671F3ABB39000651AF /* Build configuration list for PBXNativeTarget "新浪微博" */;
 			buildPhases = (
+				B29F9A00BE59A602056FF73D /* [CP] Check Pods Manifest.lock */,
 				E530213B1F3ABB39000651AF /* Sources */,
 				E530213C1F3ABB39000651AF /* Frameworks */,
 				E530213D1F3ABB39000651AF /* Resources */,
+				47AAE3BF410993FF133BB3F5 /* [CP] Embed Pods Frameworks */,
+				EDC7C7562932343D034E6DAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,6 +448,26 @@
 			productReference = E530215E1F3ABB39000651AF /* 新浪微博UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E532E3AE1F600656002434A7 /* 新浪微博Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E532E3CE1F600656002434A7 /* Build configuration list for PBXNativeTarget "新浪微博Dev" */;
+			buildPhases = (
+				E532E3AF1F600656002434A7 /* [CP] Check Pods Manifest.lock */,
+				E532E3B01F600656002434A7 /* Sources */,
+				E532E3C51F600656002434A7 /* Frameworks */,
+				E532E3C71F600656002434A7 /* Resources */,
+				E532E3CC1F600656002434A7 /* [CP] Embed Pods Frameworks */,
+				E532E3CD1F600656002434A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新浪微博Dev";
+			productName = "新浪微博";
+			productReference = E532E3D11F600656002434A7 /* 新浪微博Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -365,6 +495,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = E530213E1F3ABB39000651AF;
 					};
+					E532E3AE1F600656002434A7 = {
+						DevelopmentTeam = CV6BXNLMXG;
+					};
 				};
 			};
 			buildConfigurationList = E530213A1F3ABB39000651AF /* Build configuration list for PBXProject "新浪微博" */;
@@ -383,6 +516,7 @@
 				E530213E1F3ABB39000651AF /* 新浪微博 */,
 				E53021521F3ABB39000651AF /* 新浪微博Tests */,
 				E530215D1F3ABB39000651AF /* 新浪微博UITests */,
+				E532E3AE1F600656002434A7 /* 新浪微博Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -394,6 +528,7 @@
 			files = (
 				E530214D1F3ABB39000651AF /* LaunchScreen.storyboard in Resources */,
 				E530214A1F3ABB39000651AF /* Assets.xcassets in Resources */,
+				E54EEDB81F459D99002A8289 /* main.json in Resources */,
 				E53021481F3ABB39000651AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +547,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E532E3C71F600656002434A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E532E3C81F600656002434A7 /* LaunchScreen.storyboard in Resources */,
+				E532E3C91F600656002434A7 /* Assets.xcassets in Resources */,
+				E532E3CA1F600656002434A7 /* main.json in Resources */,
+				E532E3CB1F600656002434A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47AAE3BF410993FF133BB3F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29F9A00BE59A602056FF73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E532E3AF1F600656002434A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E532E3CC1F600656002434A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E532E3CD1F600656002434A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC7C7562932343D034E6DAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博/Pods-新浪微博-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E530213B1F3ABB39000651AF /* Sources */ = {
@@ -425,6 +664,7 @@
 				E53021931F3ABB68000651AF /* YSHYWBProfileController.swift in Sources */,
 				E530218A1F3ABB68000651AF /* UIColor+Extenstion.swift in Sources */,
 				E53021971F3ADBC6000651AF /* UIButton+Extension.swift in Sources */,
+				E5EC0C081F5D1A220099F70F /* WBNetworkManager.swift in Sources */,
 				E53021921F3ABB68000651AF /* YSHYWBMessageController.swift in Sources */,
 				E53021A01F3B0875000651AF /* YSHYWBVisitorView.swift in Sources */,
 				E530218E1F3ABB68000651AF /* YSHYWBHomeController.swift in Sources */,
@@ -432,6 +672,8 @@
 				E53021901F3ABB68000651AF /* YSHYWBMMainViewController.swift in Sources */,
 				E53021911F3ABB68000651AF /* YSHYWBNavController.swift in Sources */,
 				E530218C1F3ABB68000651AF /* YSHYWBDemoViewController.swift in Sources */,
+				E53021A21F3B0B29000651AF /* UILabel+Extenstion.swift in Sources */,
+				E5EC0C0A1F5D1AD70099F70F /* WBNetworkManager+Extension.swift in Sources */,
 				E530218B1F3ABB68000651AF /* YSHYTools.swift in Sources */,
 				E53021881F3ABB68000651AF /* Bundle+Extenstion.swift in Sources */,
 				E53021951F3ABFD5000651AF /* UIBarButtonItem+Extension.swift in Sources */,
@@ -452,6 +694,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53021631F3ABB39000651AF /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E532E3B01F600656002434A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E532E3B11F600656002434A7 /* ViewController.swift in Sources */,
+				E532E3B21F600656002434A7 /* AppDelegate.swift in Sources */,
+				E532E3B31F600656002434A7 /* YSHYWBDiscoverController.swift in Sources */,
+				E532E3B41F600656002434A7 /* YSHYWBProfileController.swift in Sources */,
+				E532E3B51F600656002434A7 /* UIColor+Extenstion.swift in Sources */,
+				E532E3B61F600656002434A7 /* UIButton+Extension.swift in Sources */,
+				E532E3B71F600656002434A7 /* WBNetworkManager.swift in Sources */,
+				E532E3B81F600656002434A7 /* YSHYWBMessageController.swift in Sources */,
+				E532E3B91F600656002434A7 /* YSHYWBVisitorView.swift in Sources */,
+				E532E3BA1F600656002434A7 /* YSHYWBHomeController.swift in Sources */,
+				E532E3BB1F600656002434A7 /* CGRect+Extenstion.swift in Sources */,
+				E532E3BC1F600656002434A7 /* YSHYWBMMainViewController.swift in Sources */,
+				E532E3BD1F600656002434A7 /* YSHYWBNavController.swift in Sources */,
+				E532E3BE1F600656002434A7 /* YSHYWBDemoViewController.swift in Sources */,
+				E532E3BF1F600656002434A7 /* UILabel+Extenstion.swift in Sources */,
+				E532E3C01F600656002434A7 /* WBNetworkManager+Extension.swift in Sources */,
+				E532E3C11F600656002434A7 /* YSHYTools.swift in Sources */,
+				E532E3C21F600656002434A7 /* Bundle+Extenstion.swift in Sources */,
+				E532E3C31F600656002434A7 /* UIBarButtonItem+Extension.swift in Sources */,
+				E532E3C41F600656002434A7 /* YSHYWBBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,29 +856,33 @@
 		};
 		E53021681F3ABB39000651AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2595AC0BA1BD49B4083C63C6 /* Pods-新浪微博.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CV6BXNLMXG;
 				INFOPLIST_FILE = "新浪微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YSHY.weibo.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.weibo.offical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		E53021691F3ABB39000651AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E29FA0E9D7E2DD46CC28C5 /* Pods-新浪微博.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CV6BXNLMXG;
 				INFOPLIST_FILE = "新浪微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YSHY.weibo.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.weibo.offical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -671,6 +944,38 @@
 			};
 			name = Release;
 		};
+		E532E3CF1F600656002434A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2595AC0BA1BD49B4083C63C6 /* Pods-新浪微博.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = "新浪微博 copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.weibo.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		E532E3D01F600656002434A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E29FA0E9D7E2DD46CC28C5 /* Pods-新浪微博.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = "新浪微博 copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.weibo.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,6 +995,7 @@
 				E53021691F3ABB39000651AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E530216A1F3ABB39000651AF /* Build configuration list for PBXNativeTarget "新浪微博Tests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +1004,7 @@
 				E530216C1F3ABB39000651AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E530216D1F3ABB39000651AF /* Build configuration list for PBXNativeTarget "新浪微博UITests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +1013,16 @@
 				E530216F1F3ABB39000651AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E532E3CE1F600656002434A7 /* Build configuration list for PBXNativeTarget "新浪微博Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E532E3CF1F600656002434A7 /* Debug */,
+				E532E3D01F600656002434A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,6 +21,9 @@ class YSHYWBBaseViewController: UIViewController{
     
     var isLogon = false
     
+   public var visitorInfo: [String
+    : String]?
+    
     lazy var navBar = UINavigationBar.init(frame: YSHY_CGR_Make(0,0,CONTEXTWIDTH,64))
     lazy var navItem = UINavigationItem()
     
@@ -40,6 +43,15 @@ class YSHYWBBaseViewController: UIViewController{
         // 如果子类不实现任何方法,默认关闭刷新
         refreshControl?.endRefreshing()
     }
+    
+    @objc func register(){
+    
+    }
+    
+    @objc func lognin(){
+        
+    }
+    
 }
 // 设置界面
 extension YSHYWBBaseViewController {
@@ -49,7 +61,6 @@ extension YSHYWBBaseViewController {
         // 取消自动缩进 如果隐藏了导航栏会缩进20个点
         automaticallyAdjustsScrollViewInsets = false
         setNavgationBar()
-        
         isLogon ? setupTableView():setupVisitorView()
     }
     
@@ -78,10 +89,15 @@ extension YSHYWBBaseViewController {
     }
     //设置访客视图
     func setupVisitorView()  {
-        let visitoreView = YSHYWBVisitorView.init(frame: view.bounds)
-        visitoreView.backgroundColor = UIColor.randomColor
+        let visitoreView:YSHYWBVisitorView = YSHYWBVisitorView.init(frame: view.bounds)
         view.insertSubview(visitoreView, belowSubview:navBar)
-//        navBar.isHidden = true
+        visitoreView.visitorDicInfo = visitorInfo
+
+        navItem.leftBarButtonItem = UIBarButtonItem.init(title: "注册", target: self, action: #selector(register))
+        
+        navItem.rightBarButtonItem = UIBarButtonItem.init(title: "登录", target: self, action: #selector(lognin))
+        
+        
     }
 }
 // 父类准备方法,子类负责具体实现

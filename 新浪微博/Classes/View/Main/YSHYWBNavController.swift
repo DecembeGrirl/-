@@ -10,8 +10,7 @@ import UIKit
 
 class YSHYWBNavController: UINavigationController {
     // 自定义导航条
-   
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
        setupUI()

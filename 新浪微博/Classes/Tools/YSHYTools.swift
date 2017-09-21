@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SnapKit
 /***************字体******************/
 // 系统普通字体
 var YSHY_Font_Sys: (CGFloat) -> UIFont = { size in
@@ -40,6 +41,14 @@ var YSHY_Color_RGB_Normal: (CGFloat,CGFloat, CGFloat) -> UIColor = {R ,G , B  in
 var YSHY_Color_RGBValue: (NSInteger) -> UIColor = {value  in
     return UIColor.init(red: ((CGFloat)((value & 0xFF0000) >> 16)) / 255.0 , green: ((CGFloat)((value & 0xFF0000) >> 8)) / 255.0, blue: (CGFloat)(value & 0xFF0000) / 255.0, alpha: 1)
 }
+
+// 使用颜色字符串
+var YSHY_Color_RGBSTR:(String) -> UIColor = {value in
+    // 存储转换后的数值
+     let hexValue = UInt(String(value.characters.suffix(6)), radix: 16)
+        return UIColor.init(red: ((CGFloat)((hexValue! & 0xFF0000) >> 16)) / 255.0 , green: ((CGFloat)((hexValue! & 0xFF0000) >> 8)) / 255.0, blue: (CGFloat)(hexValue! & 0xFF0000) / 255.0, alpha: 1)
+}
+
 
 let YSHY_Color_BackGround_1:UIColor = YSHY_Color_RGB_Normal(248,248,248)
 /********************CGRect***********************************/

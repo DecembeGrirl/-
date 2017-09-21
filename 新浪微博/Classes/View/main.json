@@ -1,0 +1,41 @@
+[
+  {
+    "clsName" : "YSHYWBHomeController",
+    "title" : "首页",
+    "visitorInfo" : {
+      "imageName" : "",
+      "message" : "关注一些人,会这里看看有什么惊喜"
+    },
+    "imgName" : "tabbar_home"
+  },
+  {
+    "clsName" : "YSHYWBMessageController",
+    "title" : "消息",
+    "visitorInfo" : {
+      "imageName" : "visitordiscover_image_message",
+      "message" : "登录后,别人评论你的微博,发给你的消息,都会在这里收到通知"
+    },
+    "imgName" : "tabbar_message_center"
+  },
+  {
+    "clsName" : "UIViewController"
+  },
+  {
+    "clsName" : "YSHYWBDiscoverController",
+    "title" : "发现",
+    "visitorInfo" : {
+      "imageName" : "visitordiscover_image_profile",
+      "message" : "登录后,最新最热微博尽在掌握,不再与实事潮流擦肩而过"
+    },
+    "imgName" : "tabbar_discover"
+  },
+  {
+    "clsName" : "YSHYWBProfileController",
+    "title" : "个人",
+    "visitorInfo" : {
+      "imageName" : "visitordiscover_image_profile",
+      "message" : "登录后你的微博相册个人资料会在这里展示给别人"
+    },
+    "imgName" : "tabbar_profile"
+  }
+]

@@ -16,6 +16,10 @@ class YSHYWBHomeController: YSHYWBBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        
+        let networkManger = WBNetworkManager.init()
+        networkManger.WBRequst(url: "https://baidu.com",method: .POST, parameters:[:])
+
     }
     
     override func loadDate() {
@@ -37,8 +41,6 @@ class YSHYWBHomeController: YSHYWBBaseViewController {
             self.tableView?.reloadData()
         }
         
-        
-        
     }
     
     @objc func selctedgoodFriends () {
@@ -52,7 +54,6 @@ extension YSHYWBHomeController{
      override func setupUI() {
         super.setupUI()
         navItem.leftBarButtonItem = UIBarButtonItem.init(title: "好友", target: self, action: #selector(selctedgoodFriends))
-    
         tableView?.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
     }
 }
@@ -61,7 +62,6 @@ extension YSHYWBHomeController{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return statusList.count
     }
-    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID)

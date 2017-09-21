@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/View/Demo/YSHYWBDemoViewController.swift"
+            timestampString = "526205062.359661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/View/Home/YSHYWBHomeController.swift"
+            timestampString = "526527937.84598"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/Tools/networking/WBNetworkManager.swift"
+            timestampString = "526529044.214682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "WBRequst(url:method:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/Tools/networking/WBNetworkManager.swift"
+            timestampString = "526529044.214682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "WBRequst(url:method:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/Tools/networking/WBNetworkManager.swift"
+            timestampString = "526529044.214682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "WBRequst(url:method:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev.WBNetworkManager.WBRequst (url : Swift.String, method : &#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev.WBHTTPMethod, parameters : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglle/Desktop/2048/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A/Classes/Tools/networking/WBNetworkManager.swift"
+                  timestampString = "526814106.040627"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev.WBNetworkManager.(WBRequst (url : Swift.String, method : &#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev.WBHTTPMethod, parameters : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglle/Desktop/2048/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A/Classes/Tools/networking/WBNetworkManager.swift"
+                  timestampString = "526814106.042772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/Tools/networking/WBNetworkManager.swift"
+            timestampString = "526814104.594006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "WBRequst(url:method:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;/Classes/Tools/networking/WBNetworkManager.swift"
+            timestampString = "526814104.594006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "WBRequst(url:method:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
